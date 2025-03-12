@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "eslint": "8.45.0",
+   "dependencies": {
     "eslint-config-next": "13.4.10",
     "framer-motion": "^10.13.0",
     "gsap": "^3.12.2",
@@ -18,5 +19,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.85.1"
-  }
+  },
+   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.10.0",
+    "eslint": "^9.22.0"
+  } 
 }
