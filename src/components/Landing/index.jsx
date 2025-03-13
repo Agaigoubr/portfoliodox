@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
       <Image 
-        src="/images/background.jpg"
+        src="/images/c2.jpg"
         fill={true}
         alt="ibrahim"
       />
