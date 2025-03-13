@@ -48,7 +48,7 @@ export default function Home() {
       <Image 
         src="public/images/c2.jpg"
         fill={true}
-        alt="ibrahim"
+        alt="ibrahim1"
       />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
