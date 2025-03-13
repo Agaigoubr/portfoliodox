@@ -45,11 +45,11 @@ export default function Home() {
 
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
-      <Image 
+      <img 
         src="/ibrahimaga.jpg"
         fill={true}
         alt="ibrahim1"
-      />
+      ></img>
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>ibrahim Developer -</p>
